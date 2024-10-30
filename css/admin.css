@@ -1,0 +1,77 @@
+.meridian-one-customizer-icon-select-hook {
+
+}
+
+.meridian-one-customizer-icon-select {
+	display: none;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	bottom: 0;
+	background: #ddd;
+	width: 300px;
+	padding: 20px;
+}
+
+body.widgets-php .meridian-one-customizer-icon-select {
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	right: 50px;
+	bottom: 50px;
+	width: auto;
+	z-index: 99999;
+}
+
+	.meridian-one-customizer-icon-select-title {
+		font-size: 14px;
+		font-weight: bold;
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	.meridian-one-customizer-icon-select-description {
+		font-size: 14px;
+		display: block;
+	}
+
+	.meridian-one-customizer-icon-select-list {
+		margin-top: 20px;
+		position: absolute;
+		left: 20px;
+		right: 20px;
+		top: 70px;
+		bottom: 20px;
+		overflow-y: scroll;
+	}
+
+		.meridian-one-customizer-icon-select-list .fa {
+			width: 30px;
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			font-size: 16px;
+			display: inline-block;
+			cursor: pointer;
+		}
+
+		.meridian-one-customizer-icon-select-list .fa.meridian-one-active,
+		.meridian-one-customizer-icon-select-list .fa:hover {
+			background: #7f64b5;
+			color: #fff;
+			border-radius: 2px;
+		}
+
+.meridian-one-customizer-icon-current {
+	display: block;
+	font-size: 18px;
+}
+
+.meridian-one-customizer-image-current {
+	max-width: 150px;
+	display: block;
+}
+
+	.meridian-one-customizer-image-current img {
+		max-width: 100%;
+	}

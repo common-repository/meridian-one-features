@@ -1,0 +1,204 @@
+/**
+ * About Widget
+ */
+
+.section-about-item {
+	
+}
+
+	.section-about-item-icon {
+		text-align: center;
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		font-size: 20px;
+		background: #7f64b5;
+		display: inline-block;
+		color: #fff;
+		margin-bottom: 15px;
+	}
+
+	.section-about-item-title {
+		font-size: 15px;
+		margin-bottom: 25px;
+	}
+
+	.section-about-item-description {
+
+	}
+
+/**
+ * Contact widget
+ */
+
+.section-contact-extra-item {
+
+}
+
+	.section-contact-extra-item-icon {
+		display: block;
+		float: left;
+		width: 60px;
+		height: 60px;
+		line-height: 60px;
+		border: 1px solid #7f64b5;
+		margin-right: 15px;
+		text-align: center;
+		font-size: 20px;
+		color: #7f64b5;
+	}
+
+	.section-contact-extra-item-main {
+		overflow: hidden;
+	}
+
+		.section-contact-extra-item-main strong {
+			display: block;
+			font-size: 14px;
+			line-height: 1;
+			margin-bottom: 15px;
+			margin-top: 5px;
+		}
+
+		.section-contact-extra-item-main span {
+			display: block;
+		}
+
+/**
+ * Features widget
+ */
+
+.section-features-item-icon {
+	font-size: 25px;
+	line-height: 1;
+	color: #7f64b5;
+	display: block;
+	margin-bottom: 25px;
+}
+
+.section-features-item-title {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+.section-features-item-description {
+
+}
+
+/**
+ * Process widget
+ */
+.section-process-item {
+
+}
+
+	.section-process-item-title {
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+
+	.section-process-item-description {
+
+	}
+
+/**
+ * Service widget
+ */
+
+.section-services-tabs-content {
+	
+}
+
+	.section-services-tabs-content-item {
+		position: relative;
+	}
+
+		.section-services-tabs-content-image {
+			margin-bottom: 15px;
+		}
+
+			.section-services-tabs-content-image img {
+				display: block;
+			}
+
+		.section-services-tabs-content-info {
+			
+		}
+
+			.section-services-tabs-content-info-icon {
+				display: none;
+			}
+
+			.section-services-tabs-content-info-title {
+				font-size: 34px;
+			}
+
+			.section-services-tabs-content-info-description {
+				
+			}
+
+/**
+ * Team member widget
+ */
+
+.section-team-item {
+	
+}
+
+	.section-team-item-thumb {
+		margin-bottom: 25px;
+	}
+
+		.section-team-item-thumb a,
+		.section-team-item-thumb img {
+			display: block;
+		}
+
+	.widget h2.section-team-item-title {
+		font-size: 14px;
+		font-weight: bold;
+		margin-bottom: 5px;
+	}
+
+	.section-team-item-extra {
+
+	}
+
+/**
+ * Testimonial widget
+ */
+
+.section-testimonials-item {
+	
+}
+
+	.section-testimonials-item-thumb {
+		width: 50px;
+		height: 50px;
+		float: left;
+		margin-right: 20px;
+	}
+
+		.section-testimonials-item-thumb img {
+			display: block;
+			border-radius: 50%;
+		}
+
+	.section-testimonials-item-main {
+		overflow: hidden;
+	}
+
+		.section-testimonials-item-content {
+			margin-bottom: 15px;
+		}
+
+		.section-testimonials-item-title {
+			text-transform: uppercase;
+			display: block;
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		.section-testimonials-item-extra {
+			display: block;
+		}
